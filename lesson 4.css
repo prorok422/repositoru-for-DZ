@@ -7,24 +7,7 @@ body {
 {
     list-style-type: none;
 }
-/*
-.item {
-    border: 1px solid black;
-    display: inline-block;
-    position: relative;
-}
-.submenu {
-    position: absolute;
-    padding: 0px;
-    display: none;
 
-    }
-
-.item:hover .submenu {
-    display: block;
-
-}
-*/
 
 header {
     background-image: url('img/bg-slider.png') ;
@@ -62,6 +45,7 @@ nav {
 }
 
 .portfolio-item {
+
     display: inline-block;
     position: relative;
     cursor: pointer;
@@ -71,8 +55,8 @@ nav {
     top: 0px;
     left: 0px;
     background-color: rgba(48, 48, 48, 0.6);
-    width: 271 px;
-    height: 278 px;
+    width: 271px;
+    height: 278px;
     color: white;
     display: none;
 
@@ -84,4 +68,159 @@ nav {
 .portfolio-item:hover .portfolio-detail {
     display: block;
 
+}
+
+.ava {
+    padding: 3em 0;
+    text-align: center; /* выровнять текст и картинки по горизонтали */
+    height: 550px;
+    display: inline-block;
+
+}
+.i {
+    font-size: 30px;
+    display: inline-block;
+
+}
+
+.text {
+    display: inline-block;
+    padding: 25px 50px;
+}
+
+.span:before, .span:after {
+    content: '  ';
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    top: -3px;
+    background: #303030;
+    position: relative;
+    margin-left:10px;
+    margin-right:10px;
+
+
+}
+.otstup {
+    margin: 0px 0px 35px 0px;
+
+}
+.round {
+    border-radius: 100px; /* Радиус скругления */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    margin-right: 15px;
+}
+.round:hover{
+    background-color: black;
+}
+
+.flowersblc {
+    height: 550px;
+    text-align: center;
+    padding: 0px 0px 100px 0px;
+
+}
+.text1
+{
+    position: relative;
+    width: 600px;
+    height: 170px;
+    display: inline-block;
+    padding: 50px 0px;
+
+}
+.text1 i {
+    font-size: 30px;
+}
+span {
+    display: inline-block;
+    margin: 25px 0px;
+    text-align: left;
+}
+.but1
+{
+
+    text-align: center;
+    background-color: #303030;
+    color:  white;
+    border: 0px;
+    font-family: monospace;
+    text-transform: uppercase;
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    margin: 0px -300px ;
+
+
+
+
+
+}
+.ava1 {
+    padding: 70px 0px 0px 0px ;
+}
+.layer3 {
+    width: 500px;
+    margin: 30px 0px 0px -70px ;
+
+}
+
+
+.text2 {
+    position: relative;
+    width: 400px;
+    height: 170px;
+    display: inline-block;
+    padding: 0px;
+
+
+}
+
+.otstup {
+    margin: 0px 0px 15px 0px;
+
+}
+.text4
+{
+    margin: auto;
+    color: #303030;
+    width: 700px;
+
+}
+.span1 {
+    content: '  ';
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    top: -3px;
+    background: #303030;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.name {
+    color: red;
+    font-family: sans-serif;
+}
+.portfolio-item1 {
+
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin: -2px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+
+}
+.bckg {
+    background-color: #141414;
+    width: auto;
+    height: auto;
+}
+.socset {
+    margin: 35px 0px;
 }
