@@ -45,6 +45,7 @@ h4 {/* заголовок статьи*/
     -webkit-margin-before: 0.9em;
     -webkit-margin-after: 0.6em;
     position: relative;
+    text-align: center;
 
 
 }
@@ -62,6 +63,7 @@ h4 {/* заголовок статьи*/
 
 .span1{/*отступ разделителя*/
     -webkit-margin-after: 0.9em;
+    text-align: center;
 }
 
 
@@ -113,7 +115,7 @@ h4 {/* заголовок статьи*/
     color: white;
     display: none;
     transition-property: background-color;
-    transition-duration: 3s
+    transition-duration: 4s
 
 }
 .portfolio-detail h3 {/*позиционирование текста*/
@@ -127,14 +129,14 @@ h4 {/* заголовок статьи*/
 
 .flowersblc {
     width: 976px;
-    height: auto;
+    height: 350px;
     text-align: center;
     margin:0 auto ;
 }
 
 .flowers {
     float: left;
-    text-align: center;
+
 
   }
 .lorem {
@@ -143,12 +145,97 @@ h4 {/* заголовок статьи*/
     height: auto;
     padding: 10px;
     margin: 10px;
+    text-align: left;
 
 }
 .flowersh4 {
     padding: 10px;
     margin: 10px;
     display: inline-block;
+    text-align: left;
 }
 
+.button1 {
 
+    text-align: center;
+    background-color: #303030;
+    color:  white;
+    border: 0;
+    font-family: monospace;
+    text-transform: uppercase;
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    margin: 20px -300px ;
+}
+
+.philosophy {
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin:0 auto ;
+
+}
+
+.layer {
+    float: right;
+    width: 500px;
+    text-align: left;
+
+}
+.lorem2 {
+    display: inline-block;
+    width: 600px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+.text4
+{
+    margin: auto;
+    color: #303030;
+    width: 700px;
+
+}
+.span2 {
+    content: '  ';
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    top: -3px;
+    background: #303030;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.name {
+    color: red;
+    font-family: sans-serif;
+}
+
+.portfolio-item1 {
+
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+    margin: -2px;
+}
+
+.ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.socset {
+    margin: 35px 0;
+}
+.wrap {
+    background-color: #141414;
+    width: inherit;
+    height: auto;
+    text-align: center;
+}
