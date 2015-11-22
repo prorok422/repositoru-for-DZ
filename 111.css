@@ -1,0 +1,45 @@
+/*.soc{
+    display: inline-block;
+    border-radius: 21px;
+}*/
+
+
+
+.round{
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 21px;
+
+}
+
+.round1
+{
+
+    display: none;
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 21px;
+
+    }
+
+ul{
+    ;
+    list-style: none ;
+    display: inline-block;
+}
+    .soc:hover .round{
+
+        display: none;
+
+    }
+    .soc:hover .round1{
+        display: inline-block;
+    }
+
+/*body {
+    background-color: brown;
+}
+@media screen and (max-width: 600px) {
+    body {
+        background-color: green;
+    }*/
