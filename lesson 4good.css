@@ -326,8 +326,7 @@ h4 {
     left: -85%;
     transition: left .2s;
     z-index: 2;
-    background-color: grey;
-    opacity: 0.4;
+    background-color: rgba(97, 101, 106, 0.4);
     text-align: center;
 
 }
