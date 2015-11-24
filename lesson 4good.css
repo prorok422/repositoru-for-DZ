@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+
 }
 
 header {
@@ -33,7 +34,7 @@ nav {
     top: 50px;
     right: 10px;
 }
-
+/*ava*/
 .a1 {
     text-decoration: none;
     color: white;
@@ -43,6 +44,8 @@ nav {
 
 .ava {
     text-align: center;
+    min-width: 500px;
+
 }
 
 h4 {
@@ -77,7 +80,7 @@ h4 {
 .text {
     /*параметры текста в статье*/
     margin: 0;
-    width: 1000px;
+    min-width: 500px;
     text-align: center;
     display: inline-block;
     font-family: inherit;
@@ -90,18 +93,12 @@ h4 {
     padding: 0;
     font-style: italic;
 }
-
+/*ava*/
 .img {
     /*дл€  одной картинки*/
     margin: 1em 0 0.6em; /* дл€ подписей*/
 
 }
-
-/*.round {
-    /!*круглые кнопки*!/
-    border-radius: 100px; /!* –адиус скруглени€ *!/
-    box-shadow: 0 0 7px #666; /!* ѕараметры тени *!/
-    margin-right: 15px;}*/
 
 .round:hover {
     /*смена при навидение*/
@@ -111,16 +108,17 @@ h4 {
 .wrap {
     /*центрирует*/
     text-align: center;
-    min-width: 1000px;
+    min-width: 500px;
 
 }
 
 .portfolio-item {
-    /*...походу выстраивает картинки в линию*/
+    /* выстраивает картинки в линию*/
 
     display: inline-block;
     position: relative;
     cursor: pointer;
+    max-width: 1200px;
 }
 
 .portfolio-detail {
@@ -148,12 +146,14 @@ h4 {
     /*при навидение выводит блок*/
     display: block;
 }
-
+/*flowersblc*/
 .flowersblc {
-    width: 976px;
+
     height: 350px;
     text-align: center;
     margin: 0 auto;
+    min-width: 500px;
+    max-width: 1000px;
 }
 
 .flowers {
@@ -162,8 +162,6 @@ h4 {
 }
 
 .lorem {
-    display: inline-block;
-    width: 600px;
     height: auto;
     padding: 10px;
     margin: 10px;
@@ -174,7 +172,6 @@ h4 {
 .flowersh4 {
     padding: 10px;
     margin: 10px;
-    display: inline-block;
     text-align: left;
 }
 
@@ -193,7 +190,8 @@ h4 {
 }
 
 .philosophy {
-    width: 1100px;
+    min-width: 500px;
+    max-width: 1000px;
     height: auto;
     text-align: center;
     margin: 0 auto;
@@ -208,8 +206,8 @@ h4 {
 }
 
 .lorem2 {
-    display: inline-block;
-    width: 400px;
+
+    min-width: 500px;
     height: auto;
     padding: 10px 0;
     margin: 10px 0;
@@ -219,7 +217,7 @@ h4 {
 .text4 {
     margin: auto;
     color: #303030;
-    width: 700px;
+    min-width: 500px;
 
 }
 
@@ -339,14 +337,17 @@ h4 {
 
 .btn-menu {
     background-image: url("img/ic-menu.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
     width: 60px;
     height: 52px;
     position: fixed;
     top: 15px;
-    left: 15px;
+    right: 15px;
     cursor: pointer;
     z-index: 3;
     transition: left 0.2s;
+
 
 }
 
