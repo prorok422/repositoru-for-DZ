@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -18,11 +19,11 @@ header {
 
 .l1 {
     text-decoration: none;
-    text-decoration-color: white;
-    font-size: 20px;
     display: inline-block;
     position: relative;
     margin-right: 40px;
+    text-decoration-color: white;
+    font-size: 20px;
 }
 
 .submenu {
@@ -55,7 +56,7 @@ h4 {
     -webkit-margin-before: 0.9em;
     -webkit-margin-after: 0.6em;
     position: relative;
-    text-align: center;
+
 
 }
 
@@ -110,6 +111,7 @@ h4 {
     text-align: center;
     min-width: 500px;
 
+
 }
 
 .portfolio-item {
@@ -118,7 +120,7 @@ h4 {
     display: inline-block;
     position: relative;
     cursor: pointer;
-    max-width: 1200px;
+
 }
 
 .portfolio-detail {
@@ -142,15 +144,12 @@ h4 {
 
 }
 
-.portfolio-item:hover .portfolio-detail {
-    /*при навидение выводит блок*/
-    display: block;
-}
+
 /*flowersblc*/
 .flowersblc {
 
     height: 350px;
-    text-align: center;
+
     margin: 0 auto;
     min-width: 500px;
     max-width: 1000px;
@@ -172,7 +171,9 @@ h4 {
 .flowersh4 {
     padding: 10px;
     margin: 10px;
-    text-align: left;
+    text-align: center;
+    min-width: 200px;
+
 }
 
 .button1 {
@@ -185,15 +186,15 @@ h4 {
     text-transform: uppercase;
     width: 120px;
     height: 35px;
-    position: absolute;
-    margin: 20px -300px;
+    margin: 50px;
+
+
 }
 
 .philosophy {
     min-width: 500px;
     max-width: 1000px;
     height: auto;
-    text-align: center;
     margin: 0 auto;
 
 }
@@ -247,9 +248,9 @@ h4 {
     margin: -2px;
 }
 
-.ul {
+ul {
     list-style-type: none;
-    padding: 0;
+    padding-left: 0;
 
 }
 
@@ -326,7 +327,7 @@ h4 {
     z-index: 2;
     background-color: rgba(97, 101, 106, 0.4);
     text-align: center;
-    border-radius: 100px;
+    border-radius: 10px 100px 100px 10px;
 
 }
 
@@ -336,7 +337,7 @@ h4 {
 }
 
 .btn-menu {
-    background-image: url("img/ic-menu.png");
+    background-image:  url("img/ic-menu.png");
     background-repeat: no-repeat;
     background-size: 30px;
     width: 60px;
@@ -400,3 +401,11 @@ h4 {
 
 
 
+h4 .philo-article{
+
+    display: inline-block;
+
+}
+.min-size{
+    min-width: 100px;
+}
